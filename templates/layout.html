@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home page</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+		<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div class="container">
+			<header>
+				<h1 class="title">Learning Flask</h1>
+			</header>
+		</div>
+		{% block content %}
+		{% endblock %}
+	</body>
+</html>
